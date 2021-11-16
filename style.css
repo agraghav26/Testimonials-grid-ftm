@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1400px) {
+  body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    position: relative;
+    font-size: 13px;
+    
+  }
+  .Main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+    column-gap: 40px;
+    row-gap: 40px;
+
+    
+  }
+  .item {
+    border-radius: 10px;
+    
+    
+   
+    padding: 30px;
+  }
+ 
+  #block1 {
+    background-color: hsl(263, 55%, 52%);
+    
+    position: relative;
+  }
+  #background-image {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    opacity: 70%;
+  }
+  #block2 {
+    background-color: hsl(217, 19%, 35%);
+    
+    position: relative;
+  }
+  .block34 {
+    background-color: white;
+    
+    position: relative;
+  }
+  #block5 {
+    background-color: hsl(219, 29%, 14%);
+    
+    position: relative;
+  }
+
+  .roundimages {
+    border: hsl(0, 0%, 81%) solid 1px;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .roundimages34 {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .roundimages5 {
+    border: hsl(263, 55%, 52%) solid 1px;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .Name {
+    position: absolute;
+    /* font-weight: 600; */
+    color: hsl(210, 46%, 95%);
+    left: 80px;
+  }
+  .Designation {
+    position: absolute;
+    /* font-weight: 500; */
+    color: hsl(0, 0%, 81%);
+    left: 80px;
+    top: 47px;
+    opacity: 70%;
+  }
+  .info-block1-2-5 {
+    color: white;
+    font-weight: 600;
+    /* font-size: 50px; */
+  }
+  .moreinfo-block1-2-5 {
+    color: hsl(0, 0%, 81%);
+    /* font-weight: 600; */
+    opacity: 70%; /* font-size: 50px; */
+  }
+
+  .Name3-4 {
+    position: absolute;
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+    left: 80px;
+  }
+  .Designation3-4 {
+    position: absolute;
+    /* font-weight: 500; */
+    color: hsl(217, 19%, 35%);
+    left: 80px;
+    top: 47px;
+    opacity: 70%;
+  }
+  .info-block3-4 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 600;
+    /* font-size: 50px; */
+  }
+  .moreinfo-block3-4 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 600;
+    opacity: 70%; /* font-size: 50px; */
+  }
+}
